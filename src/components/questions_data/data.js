@@ -1,73 +1,53 @@
 export default [
     {
-        question: 'We can go for keys when there is possibility that our user could change the data?',
+        question: 'Чи повинні пасажири пристібатися ременями безпеки під час пересування на транспортному засобі, який ними обладнаний?',
         answers: [
-            'Keys',
-            'Ref',
-            'Both',
-            'None of above'
+            'Не повинні в населених пунктах.',
+            'Повинні обов`язково за межами населених пунктів.',
+            'Повинні обов`язково.',
+            'Нічого з переліченого.'
         ],
-        correct: 1
+        correct: 3
     },
 
     {
-        question: 'JSX is typesafe?',
+        question: 'Швидкість руху колони та дистанція між транспортними засобами встановлюються:',
         answers: [
-            'True',
-            'False',
-            'None of the Above',
-            'Cannot Be Determined'
+            'Старшим колони або за режимом руху головної машини відповідно до вимог Правил дорожнього руху',
+            'Тільки за режимом руху головної машини відповідно до вимог Правил дорожнього руху на певній ділянці дороги.',
+            'Тільки старшим колони відповідно до вимог Правил дорожнього руху на певній ділянці дороги.',
+            'Відповідь 2 і 3'
         ],
         correct: 1
     },    
     {
-        question: 'React merges the object you provide into the current state using which of the following',
+        question: 'Який попереджувальний сигнал вмикається на транспортному засобі перед початком руху і зупинкою?',
         answers: [
-            'setState()',
-            'State()', 
-            'getState()', 
-            'None of the Above'
-        ],    
-        correct: 1
-    },    
-    {
-        question: 'Arbitrary inputs of components are called?',
-        answers: [
-            'Keys',
-            'Props', 
-            'Elements', 
-            'Ref'
+            'Аварійна сигналізація.',
+            'Світловий покажчик повороту.', 
+            'Стоянкові вогні.', 
+            'Відповідь 1 і 3'
         ],    
         correct: 2
-    },
+    },    
     {
-        question: '_____ can be done while more than one element needs to be returned from a component?',
+        question: 'Де заборонено рух заднім ходом?',
         answers: [
-            'Abstraction',
-            'Packing', 
-            'Insulation', 
-            'Wrapping'
+            'На пішохідних переходах.',
+            'На залізничних переїздах.', 
+            'За 10 м від пішохідного переходу.', 
+            'Відповіді 1 і 2.'
         ],    
         correct: 4
     },
     {
-        question: 'Which of the following needs to be updated to achieve dynamic UI updates?',
+        question: 'Які вантажі може перевозити велосипедист?',
         answers: [
-            'State',
-            'Props', 
-            'Components', 
-            'None of the Above'
+            'Такі, які можна закріпити на його рамі або багажнику.',
+            'Такі, які можна закріпити на спині велосипедиста.', 
+            'Ширина яких не перевищує 30см', 
+            'Відповідь 1 і 3'
         ],    
         correct: 1
-    },
-    {
-        question: 'Lifecycle methods are mainly used _____',
-        answers: [
-            'To keep track of event history',
-            'To enhance components', 
-            'Free up resources', 
-            'None of the Above'
-        ],    
-        correct: 3
     }
 ]

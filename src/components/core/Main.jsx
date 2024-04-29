@@ -91,7 +91,7 @@ class Main extends Component {
         <div className="row">
             <div className="col-lg-12 col-md-10">
                 <div id="question">
-                    <h4 className="bg-light">Question {count}/{total}</h4>
+                    <h4 className="bg-light">Питання {count}/{total}</h4>
                     <p>{question}</p>
                 </div>
 
@@ -108,7 +108,7 @@ class Main extends Component {
                     {showButton ? 
                     <button className="fancy-btn" 
                             onClick={this.nextQuestion} >
-                    {count === total ? 'Finish quiz' : 'Next question'}
+                    {count === total ? 'Закінчити тест' : 'Наступне питання'}
                     </button> : <span></span>}
                 </div>
             </div>
